@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Site</title>
+    
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;  
+            background:url(pexels-bryan-gomes-3977529.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            
+        
+
+            
+        
+          }
+          .Box{
+              width: 300px;
+              padding: 30px;
+              position:absolute; 
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%,-50%); 
+              background:rgba(36, 35, 35, 0.199);
+              text-align: center;
+              border-radius: 24px;
+              background: url(https://image.freepik.com/free-vector/modern-business-background-with-digital-technology-design_1361-3299.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              
+
+          }
+          .Box h1{
+            
+              text-transform: uppercase;
+              font-weight: 700;
+              color: rgb(245, 239, 239);
+              
+
+
+              
+          }
+         .username,.password{
+             border: 0; 
+             background:rgba(255, 250, 240, 0.466);
+             display: block;
+             margin: 20px auto;
+             text-align: center;
+             border: 3px solid #f3e671;
+            padding: 14px 10px;
+             width: 220px;
+             outline: none;
+             border-radius: 24px;
+             transition: 0.25px;
+
+
+
+
+          }
+          .username:focus,.password:focus{
+              width: 250px;
+              border-color:rgb(238, 96, 96);
+              
+
+          }
+          .submit{
+              border: 0;
+              background: none;
+              display: block;
+              margin: 20px auto;
+              text-align: center;
+              border: 3px solid rgb(250, 184, 60);
+              padding: 14px 30px;
+              outline: none;
+              color: white;
+              border-radius: 24px;
+              transition: 0.25px;
+              cursor: pointer;
+
+          }
+          .submit:hover{
+              background: yellowgreen;
+
+          }
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <script src="loginjs.js"></script>
+</head>
+<body>
+    <form class="Box" action="login.html" method="post">
+<h1>login</h1>
+<input type="text" name="" placeholder="enter username" class="username" id="username">
+<input type="password" name="" placeholder="enter password" class="password" id="password">
+<input class="submit" type="submit" name="" value="login" onclick="validate()">
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
